@@ -6,8 +6,9 @@ This project implements and compares **Black-Scholes** and **Monte Carlo** metho
 
 - ✅ Black-Scholes pricing
 - ✅ Monte Carlo simulation
-- ✅ Volatility estimation from historical data
+- ✅ Estimation of variable (K, T, σ, r) from historical data
 - ✅ Plot payoff distributions & price vs variable (K, T, σ, r)
+- ✅ comparing Black-Scholes and Monte Carlo methods
 - ✅ Fetch data via Alpha Vantage
 
 ## Setup
