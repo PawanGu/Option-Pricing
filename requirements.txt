@@ -1,0 +1,6 @@
+alpha_vantage
+numpy
+pandas
+matplotlib
+scipy
+python-dotenv  # Optional, only if you're using .env for API keys
