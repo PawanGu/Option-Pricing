@@ -21,13 +21,16 @@ pip install -r requirements.txt
 
 ## Run Examples
 # Price using BS and MC
-python scripts/price_option.py
-
-# Visualize payoff histogram
-python scripts/plot_payoff_hist.py
+python price_option.py
 
 # Vary strike price (K)
-python scripts/plot_vs_variable.py --var K
+python bs_vs_mc_plot_variable.py --var K
 
 # Vary maturity (T)
-python scripts/plot_vs_variable.py --var T
+python bs_vs_mc_plot_variable.py --var T
+
+# Vary Volatility (K)
+python bs_vs_mc_plot_variable.py --var σ
+
+# Vary interest rate (r)
+python bs_vs_mc_plot_variable.py --var r
