@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- CONFIG ---
 symbol = 'AAPL'
-api_key = "test_yf_fetch.py"
+api_key = "YOUR_REAL_ALPHA_VANTAGE_API_KEY"
 strike_price = 105.0
 expiration_date = datetime(2024, 12, 20)
 risk_free_rate = 0.052
